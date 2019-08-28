@@ -84,10 +84,10 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
                   Recommend(recommendList: recommendList,),   // 商品推荐
                   FloorTitle(picture_address: floor1Title,),  // 楼层1图片
                   FloorContent(floorGoodsList: floor1,),      // 楼层1商品
-                  FloorTitle(picture_address: floor2Title,),  // 楼层2图片
-                  FloorContent(floorGoodsList: floor2,),      // 楼层2商品
-                  FloorTitle(picture_address: floor3Title,),  // 楼层3图片
-                  FloorContent(floorGoodsList: floor3,),      // 楼层3商品
+//                  FloorTitle(picture_address: floor2Title,),  // 楼层2图片
+//                  FloorContent(floorGoodsList: floor2,),      // 楼层2商品
+//                  FloorTitle(picture_address: floor3Title,),  // 楼层3图片
+//                  FloorContent(floorGoodsList: floor3,),      // 楼层3商品
                   _hotGoods(),                                 // 火爆专区
                 ],
               ),
