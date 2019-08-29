@@ -5,7 +5,7 @@ import '../config/service_url.dart';
 
 Future request(url, {formData}) async {
   try {
-    print('开始获取数据|参数| url:${url} formData:${formData}');
+    print('${url}请求获取数据|参数|formData:${formData}');
     Response response;
     Dio dio = new Dio();
 
@@ -17,6 +17,7 @@ Future request(url, {formData}) async {
     }
 
     if (response.statusCode == 200) {
+      print("${url}|接收的数据|${response.data}");
       return response.data;
     } else {
       throw Exception('后端接口出现异常，请监测代码和服务器情况...');
